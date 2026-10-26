@@ -82,16 +82,5 @@ These are explicit synthetic assumptions, not empirically calibrated user prefer
 | `docs/` | Model details, results, viva guide, compliance, proposal, provenance |
 | `tests/` | Invariant, stochastic, environment, and learning checks |
 
-## Build the LaTeX report
 
-`report/main.pdf` is already compiled. To rebuild, install TeX Live/MiKTeX or Tectonic, then run:
-
-```powershell
-python -m privacyguard.report_assets
-cd report
-pdflatex -interaction=nonstopmode -halt-on-error main.tex
-pdflatex -interaction=nonstopmode -halt-on-error main.tex
-```
-
-Or run `tectonic main.tex` in `report/`. For Overleaf upload the contents of `report/` and select `main.tex`. The report is self-contained and does not require paths outside that directory.
 
