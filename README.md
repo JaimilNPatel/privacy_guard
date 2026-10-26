@@ -95,17 +95,3 @@ pdflatex -interaction=nonstopmode -halt-on-error main.tex
 
 Or run `tectonic main.tex` in `report/`. For Overleaf upload the contents of `report/` and select `main.tex`. The report is self-contained and does not require paths outside that directory.
 
-## GitHub submission
-
-The supplied URL, `https://github.com/JaimilNPatel`, is an account profile, not a verified project repository. The report clearly labels it as such. Do not submit the profile as the required repository link.
-
-Create an empty repository in that account, then from this folder:
-
-```powershell
-git remote add origin https://github.com/JaimilNPatel/PrivacyGuard.git
-git push -u origin main
-```
-
-That remote is a suggested repository name, not an assertion that it exists. Use the actual repository URL if a different name is created. Update `report/team.tex` with that verified repository URL and rebuild the PDF. If private, grant access to `shubhambagwari` and `divyaanshmertia` as specified in the Phase 3 PDF. No remote publication or course-portal submission has been performed by this package.
-
-The included Git history contains genuine development commits made while building this package, labelled `Codex`. No earlier work, team authorship, commit dates, or external submission is fabricated. Team members should continue their real work and commit their own changes; do not manufacture history.
