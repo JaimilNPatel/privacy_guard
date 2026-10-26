@@ -1,0 +1,182 @@
+[
+  {
+    "step": 1,
+    "state": [
+      12,
+      10,
+      0,
+      2,
+      1,
+      0
+    ],
+    "action": 1,
+    "accepted": false,
+    "reward": 3.75,
+    "total_return": 3.75
+  },
+  {
+    "step": 2,
+    "state": [
+      11,
+      9,
+      0,
+      0,
+      1,
+      1
+    ],
+    "action": 0,
+    "accepted": false,
+    "reward": -0.15,
+    "total_return": 3.6
+  },
+  {
+    "step": 3,
+    "state": [
+      10,
+      9,
+      0,
+      1,
+      1,
+      0
+    ],
+    "action": 2,
+    "accepted": true,
+    "reward": 1.85,
+    "total_return": 5.45
+  },
+  {
+    "step": 4,
+    "state": [
+      9,
+      7,
+      1,
+      2,
+      0,
+      0
+    ],
+    "action": 1,
+    "accepted": false,
+    "reward": 3.75,
+    "total_return": 9.2
+  },
+  {
+    "step": 5,
+    "state": [
+      8,
+      6,
+      0,
+      0,
+      0,
+      1
+    ],
+    "action": 0,
+    "accepted": false,
+    "reward": -0.15,
+    "total_return": 9.049999999999999
+  },
+  {
+    "step": 6,
+    "state": [
+      7,
+      6,
+      0,
+      1,
+      0,
+      0
+    ],
+    "action": 2,
+    "accepted": true,
+    "reward": 2.3,
+    "total_return": 11.349999999999998
+  },
+  {
+    "step": 7,
+    "state": [
+      6,
+      5,
+      1,
+      1,
+      0,
+      0
+    ],
+    "action": 1,
+    "accepted": false,
+    "reward": 1.3499999999999999,
+    "total_return": 12.699999999999998
+  },
+  {
+    "step": 8,
+    "state": [
+      5,
+      4,
+      0,
+      0,
+      0,
+      1
+    ],
+    "action": 3,
+    "accepted": false,
+    "reward": 0.55,
+    "total_return": 13.249999999999998
+  },
+  {
+    "step": 9,
+    "state": [
+      4,
+      3,
+      0,
+      0,
+      2,
+      0
+    ],
+    "action": 0,
+    "accepted": false,
+    "reward": -0.15,
+    "total_return": 13.099999999999998
+  },
+  {
+    "step": 10,
+    "state": [
+      3,
+      3,
+      0,
+      1,
+      0,
+      1
+    ],
+    "action": 3,
+    "accepted": false,
+    "reward": 2.55,
+    "total_return": 15.649999999999999
+  },
+  {
+    "step": 11,
+    "state": [
+      2,
+      2,
+      0,
+      1,
+      1,
+      1
+    ],
+    "action": 1,
+    "accepted": false,
+    "reward": 1.3499999999999999,
+    "total_return": 17.0
+  },
+  {
+    "step": 12,
+    "state": [
+      1,
+      1,
+      0,
+      1,
+      1,
+      1
+    ],
+    "action": 1,
+    "accepted": false,
+    "reward": 1.3499999999999999,
+    "total_return": 18.35
+  }
+]

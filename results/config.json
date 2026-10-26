@@ -1,0 +1,26 @@
+{
+  "horizon": 12,
+  "budget": 10,
+  "privacy_weight": 0.45,
+  "coarse_fraction": 0.6,
+  "prompt_base": 0.25,
+  "prompt_fatigue": 0.3,
+  "missed_weight": 0.15,
+  "accept_base": 0.92,
+  "accept_sensitivity": 0.12,
+  "accept_fatigue": 0.25,
+  "utility_probs": [
+    0.45,
+    0.35,
+    0.2
+  ],
+  "sensitivity_probs": [
+    0.45,
+    0.35,
+    0.2
+  ],
+  "scope_probs": [
+    0.4,
+    0.6
+  ]
+}

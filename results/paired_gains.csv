@@ -1,0 +1,41 @@
+opponent,seed,paired_gain
+Greedy immediate,0,4.8537099999999995
+Myopic Q (gamma=0),0,5.51693
+Q without budget,0,5.51728
+Q without fatigue,0,0.0765599999999999
+SARSA,0,0.29270000000000007
+Greedy immediate,1,4.7912
+Myopic Q (gamma=0),1,5.41049
+Q without budget,1,6.1795
+Q without fatigue,1,0.05370000000000007
+SARSA,1,0.3015800000000001
+Greedy immediate,2,4.610589999999999
+Myopic Q (gamma=0),2,5.12256
+Q without budget,2,6.091010000000001
+Q without fatigue,2,-0.003279999999999896
+SARSA,2,0.31473000000000007
+Greedy immediate,3,4.793939999999999
+Myopic Q (gamma=0),3,5.44221
+Q without budget,3,6.61465
+Q without fatigue,3,0.1117
+SARSA,3,0.29585000000000006
+Greedy immediate,4,4.723389999999999
+Myopic Q (gamma=0),4,5.2718
+Q without budget,4,6.747660000000001
+Q without fatigue,4,0.08198999999999995
+SARSA,4,0.11189
+Greedy immediate,5,4.83861
+Myopic Q (gamma=0),5,5.38385
+Q without budget,5,6.05842
+Q without fatigue,5,0.029780000000000088
+SARSA,5,0.51923
+Greedy immediate,6,4.62731
+Myopic Q (gamma=0),6,5.162089999999999
+Q without budget,6,6.0058300000000004
+Q without fatigue,6,-0.06486000000000001
+SARSA,6,0.29862999999999995
+Greedy immediate,7,4.784959999999999
+Myopic Q (gamma=0),7,5.345289999999999
+Q without budget,7,5.95712
+Q without fatigue,7,0.1445500000000001
+SARSA,7,0.42702000000000007

@@ -1,0 +1,2531 @@
+{
+  "config": {
+    "horizon": 12,
+    "budget": 10,
+    "privacy_weight": 0.45,
+    "coarse_fraction": 0.6,
+    "prompt_base": 0.25,
+    "prompt_fatigue": 0.3,
+    "missed_weight": 0.15,
+    "accept_base": 0.92,
+    "accept_sensitivity": 0.12,
+    "accept_fatigue": 0.25,
+    "utility_probs": [
+      0.45,
+      0.35,
+      0.2
+    ],
+    "sensitivity_probs": [
+      0.45,
+      0.35,
+      0.2
+    ],
+    "scope_probs": [
+      0.4,
+      0.6
+    ]
+  },
+  "arguments": {
+    "episodes": 120000,
+    "seeds": 8,
+    "eval_episodes": 5000,
+    "workers": 4,
+    "quick": false,
+    "resume": false
+  },
+  "python": "3.11.9 (tags/v3.11.9:de54cf5, Apr  2 2024, 10:12:12) [MSC v.1938 64 bit (AMD64)]",
+  "numpy": "2.4.6",
+  "platform": "Windows-10-10.0.26200-SP0",
+  "test_seeds": [
+    90000,
+    90001,
+    90002,
+    90003,
+    90004,
+    90005,
+    90006,
+    90007
+  ],
+  "validation_seed": 50000,
+  "stress_test_seeds": [
+    120000,
+    120001,
+    120002,
+    120003,
+    120004,
+    120005,
+    120006,
+    120007
+  ],
+  "states_including_terminal": 7722,
+  "nonterminal_states": 7128,
+  "exact_optimal_expected_start_return": 18.996223977888153,
+  "total_wall_seconds": 203.03880060004303,
+  "training": [
+    {
+      "curve": [
+        {
+          "episode": 10000,
+          "validation_return": 12.884765625
+        },
+        {
+          "episode": 20000,
+          "validation_return": 13.095572916666669
+        },
+        {
+          "episode": 30000,
+          "validation_return": 13.001432291666667
+        },
+        {
+          "episode": 40000,
+          "validation_return": 12.879947916666666
+        },
+        {
+          "episode": 50000,
+          "validation_return": 12.958072916666667
+        },
+        {
+          "episode": 60000,
+          "validation_return": 13.094140625000001
+        },
+        {
+          "episode": 70000,
+          "validation_return": 12.974609375
+        },
+        {
+          "episode": 80000,
+          "validation_return": 12.991536458333334
+        },
+        {
+          "episode": 90000,
+          "validation_return": 12.842968750000002
+        },
+        {
+          "episode": 100000,
+          "validation_return": 12.626432291666667
+        },
+        {
+          "episode": 110000,
+          "validation_return": 12.741796875
+        },
+        {
+          "episode": 120000,
+          "validation_return": 12.605078125
+        }
+      ],
+      "seconds": 19.896166599995922,
+      "seed": 0,
+      "episodes": 120000,
+      "mode": "myopic",
+      "path": "myopic_seed0.npz"
+    },
+    {
+      "curve": [
+        {
+          "episode": 10000,
+          "validation_return": 12.700130208333334
+        },
+        {
+          "episode": 20000,
+          "validation_return": 12.894921875
+        },
+        {
+          "episode": 30000,
+          "validation_return": 12.971614583333334
+        },
+        {
+          "episode": 40000,
+          "validation_return": 12.905859375
+        },
+        {
+          "episode": 50000,
+          "validation_return": 12.822916666666666
+        },
+        {
+          "episode": 60000,
+          "validation_return": 12.867708333333335
+        },
+        {
+          "episode": 70000,
+          "validation_return": 13.051562500000001
+        },
+        {
+          "episode": 80000,
+          "validation_return": 12.881901041666666
+        },
+        {
+          "episode": 90000,
+          "validation_return": 13.029166666666669
+        },
+        {
+          "episode": 100000,
+          "validation_return": 12.764843750000002
+        },
+        {
+          "episode": 110000,
+          "validation_return": 12.80703125
+        },
+        {
+          "episode": 120000,
+          "validation_return": 12.71640625
+        }
+      ],
+      "seconds": 20.332511400047224,
+      "seed": 1,
+      "episodes": 120000,
+      "mode": "myopic",
+      "path": "myopic_seed1.npz"
+    },
+    {
+      "curve": [
+        {
+          "episode": 10000,
+          "validation_return": 12.722526041666669
+        },
+        {
+          "episode": 20000,
+          "validation_return": 12.899609375000002
+        },
+        {
+          "episode": 30000,
+          "validation_return": 12.965364583333335
+        },
+        {
+          "episode": 40000,
+          "validation_return": 12.984375
+        },
+        {
+          "episode": 50000,
+          "validation_return": 12.9296875
+        },
+        {
+          "episode": 60000,
+          "validation_return": 12.910807291666666
+        },
+        {
+          "episode": 70000,
+          "validation_return": 13.01171875
+        },
+        {
+          "episode": 80000,
+          "validation_return": 12.85703125
+        },
+        {
+          "episode": 90000,
+          "validation_return": 12.857291666666667
+        },
+        {
+          "episode": 100000,
+          "validation_return": 12.701432291666668
+        },
+        {
+          "episode": 110000,
+          "validation_return": 12.5484375
+        },
+        {
+          "episode": 120000,
+          "validation_return": 12.831640625
+        }
+      ],
+      "seconds": 20.635748300002888,
+      "seed": 2,
+      "episodes": 120000,
+      "mode": "myopic",
+      "path": "myopic_seed2.npz"
+    },
+    {
+      "curve": [
+        {
+          "episode": 10000,
+          "validation_return": 12.936848958333334
+        },
+        {
+          "episode": 20000,
+          "validation_return": 12.934765625000002
+        },
+        {
+          "episode": 30000,
+          "validation_return": 12.903645833333334
+        },
+        {
+          "episode": 40000,
+          "validation_return": 13.063281250000003
+        },
+        {
+          "episode": 50000,
+          "validation_return": 13.077083333333334
+        },
+        {
+          "episode": 60000,
+          "validation_return": 12.991927083333332
+        },
+        {
+          "episode": 70000,
+          "validation_return": 12.985026041666666
+        },
+        {
+          "episode": 80000,
+          "validation_return": 13.011588541666669
+        },
+        {
+          "episode": 90000,
+          "validation_return": 12.907161458333334
+        },
+        {
+          "episode": 100000,
+          "validation_return": 12.771484375
+        },
+        {
+          "episode": 110000,
+          "validation_return": 12.742317708333333
+        },
+        {
+          "episode": 120000,
+          "validation_return": 12.7359375
+        }
+      ],
+      "seconds": 20.444828999985475,
+      "seed": 3,
+      "episodes": 120000,
+      "mode": "myopic",
+      "path": "myopic_seed3.npz"
+    },
+    {
+      "curve": [
+        {
+          "episode": 10000,
+          "validation_return": 12.791927083333334
+        },
+        {
+          "episode": 20000,
+          "validation_return": 13.116145833333334
+        },
+        {
+          "episode": 30000,
+          "validation_return": 12.993098958333334
+        },
+        {
+          "episode": 40000,
+          "validation_return": 12.946223958333334
+        },
+        {
+          "episode": 50000,
+          "validation_return": 13.067578125000002
+        },
+        {
+          "episode": 60000,
+          "validation_return": 13.023177083333332
+        },
+        {
+          "episode": 70000,
+          "validation_return": 12.9296875
+        },
+        {
+          "episode": 80000,
+          "validation_return": 13.046223958333334
+        },
+        {
+          "episode": 90000,
+          "validation_return": 12.901692708333334
+        },
+        {
+          "episode": 100000,
+          "validation_return": 12.886197916666667
+        },
+        {
+          "episode": 110000,
+          "validation_return": 12.852213541666666
+        },
+        {
+          "episode": 120000,
+          "validation_return": 12.824869791666666
+        }
+      ],
+      "seconds": 19.89278850000119,
+      "seed": 4,
+      "episodes": 120000,
+      "mode": "myopic",
+      "path": "myopic_seed4.npz"
+    },
+    {
+      "curve": [
+        {
+          "episode": 10000,
+          "validation_return": 12.691276041666667
+        },
+        {
+          "episode": 20000,
+          "validation_return": 12.9296875
+        },
+        {
+          "episode": 30000,
+          "validation_return": 12.958984375000002
+        },
+        {
+          "episode": 40000,
+          "validation_return": 12.969531250000003
+        },
+        {
+          "episode": 50000,
+          "validation_return": 12.986979166666666
+        },
+        {
+          "episode": 60000,
+          "validation_return": 13.078255208333337
+        },
+        {
+          "episode": 70000,
+          "validation_return": 12.846093750000001
+        },
+        {
+          "episode": 80000,
+          "validation_return": 12.901171875000001
+        },
+        {
+          "episode": 90000,
+          "validation_return": 12.898046875
+        },
+        {
+          "episode": 100000,
+          "validation_return": 12.860807291666667
+        },
+        {
+          "episode": 110000,
+          "validation_return": 12.772265625000001
+        },
+        {
+          "episode": 120000,
+          "validation_return": 12.734244791666669
+        }
+      ],
+      "seconds": 19.87549529998796,
+      "seed": 5,
+      "episodes": 120000,
+      "mode": "myopic",
+      "path": "myopic_seed5.npz"
+    },
+    {
+      "curve": [
+        {
+          "episode": 10000,
+          "validation_return": 12.909895833333332
+        },
+        {
+          "episode": 20000,
+          "validation_return": 12.798567708333335
+        },
+        {
+          "episode": 30000,
+          "validation_return": 12.934114583333333
+        },
+        {
+          "episode": 40000,
+          "validation_return": 13.090885416666667
+        },
+        {
+          "episode": 50000,
+          "validation_return": 13.128515625
+        },
+        {
+          "episode": 60000,
+          "validation_return": 13.033984375000001
+        },
+        {
+          "episode": 70000,
+          "validation_return": 12.98984375
+        },
+        {
+          "episode": 80000,
+          "validation_return": 13.065494791666666
+        },
+        {
+          "episode": 90000,
+          "validation_return": 12.953906250000001
+        },
+        {
+          "episode": 100000,
+          "validation_return": 12.753255208333334
+        },
+        {
+          "episode": 110000,
+          "validation_return": 12.825911458333332
+        },
+        {
+          "episode": 120000,
+          "validation_return": 12.775390625000002
+        }
+      ],
+      "seconds": 21.164199899998493,
+      "seed": 6,
+      "episodes": 120000,
+      "mode": "myopic",
+      "path": "myopic_seed6.npz"
+    },
+    {
+      "curve": [
+        {
+          "episode": 10000,
+          "validation_return": 12.697135416666669
+        },
+        {
+          "episode": 20000,
+          "validation_return": 12.860807291666665
+        },
+        {
+          "episode": 30000,
+          "validation_return": 12.954166666666666
+        },
+        {
+          "episode": 40000,
+          "validation_return": 12.972265625
+        },
+        {
+          "episode": 50000,
+          "validation_return": 13.039843750000001
+        },
+        {
+          "episode": 60000,
+          "validation_return": 13.115885416666666
+        },
+        {
+          "episode": 70000,
+          "validation_return": 12.916927083333334
+        },
+        {
+          "episode": 80000,
+          "validation_return": 12.998307291666668
+        },
+        {
+          "episode": 90000,
+          "validation_return": 12.80078125
+        },
+        {
+          "episode": 100000,
+          "validation_return": 12.754817708333334
+        },
+        {
+          "episode": 110000,
+          "validation_return": 12.63125
+        },
+        {
+          "episode": 120000,
+          "validation_return": 12.771875000000001
+        }
+      ],
+      "seconds": 20.049814100028016,
+      "seed": 7,
+      "episodes": 120000,
+      "mode": "myopic",
+      "path": "myopic_seed7.npz"
+    },
+    {
+      "curve": [
+        {
+          "episode": 10000,
+          "validation_return": 11.510026041666668
+        },
+        {
+          "episode": 20000,
+          "validation_return": 10.459895833333334
+        },
+        {
+          "episode": 30000,
+          "validation_return": 10.892447916666667
+        },
+        {
+          "episode": 40000,
+          "validation_return": 10.427604166666667
+        },
+        {
+          "episode": 50000,
+          "validation_return": 11.1796875
+        },
+        {
+          "episode": 60000,
+          "validation_return": 11.186848958333334
+        },
+        {
+          "episode": 70000,
+          "validation_return": 10.824348958333333
+        },
+        {
+          "episode": 80000,
+          "validation_return": 11.196223958333334
+        },
+        {
+          "episode": 90000,
+          "validation_return": 12.232942708333333
+        },
+        {
+          "episode": 100000,
+          "validation_return": 12.785416666666668
+        },
+        {
+          "episode": 110000,
+          "validation_return": 11.983333333333334
+        },
+        {
+          "episode": 120000,
+          "validation_return": 12.732421875
+        }
+      ],
+      "seconds": 20.41397389996564,
+      "seed": 0,
+      "episodes": 120000,
+      "mode": "no_budget",
+      "path": "no_budget_seed0.npz"
+    },
+    {
+      "curve": [
+        {
+          "episode": 10000,
+          "validation_return": 11.388541666666667
+        },
+        {
+          "episode": 20000,
+          "validation_return": 10.151302083333333
+        },
+        {
+          "episode": 30000,
+          "validation_return": 11.036979166666669
+        },
+        {
+          "episode": 40000,
+          "validation_return": 10.90390625
+        },
+        {
+          "episode": 50000,
+          "validation_return": 11.495312500000002
+        },
+        {
+          "episode": 60000,
+          "validation_return": 11.103645833333331
+        },
+        {
+          "episode": 70000,
+          "validation_return": 11.651692708333334
+        },
+        {
+          "episode": 80000,
+          "validation_return": 11.986458333333333
+        },
+        {
+          "episode": 90000,
+          "validation_return": 11.487890625
+        },
+        {
+          "episode": 100000,
+          "validation_return": 12.014192708333335
+        },
+        {
+          "episode": 110000,
+          "validation_return": 12.083203125000002
+        },
+        {
+          "episode": 120000,
+          "validation_return": 12.028515625000002
+        }
+      ],
+      "seconds": 20.370845300029032,
+      "seed": 1,
+      "episodes": 120000,
+      "mode": "no_budget",
+      "path": "no_budget_seed1.npz"
+    },
+    {
+      "curve": [
+        {
+          "episode": 10000,
+          "validation_return": 10.06875
+        },
+        {
+          "episode": 20000,
+          "validation_return": 10.933984375
+        },
+        {
+          "episode": 30000,
+          "validation_return": 11.510416666666666
+        },
+        {
+          "episode": 40000,
+          "validation_return": 11.705078125
+        },
+        {
+          "episode": 50000,
+          "validation_return": 11.552864583333337
+        },
+        {
+          "episode": 60000,
+          "validation_return": 11.796614583333332
+        },
+        {
+          "episode": 70000,
+          "validation_return": 11.931510416666667
+        },
+        {
+          "episode": 80000,
+          "validation_return": 11.220052083333334
+        },
+        {
+          "episode": 90000,
+          "validation_return": 11.784114583333334
+        },
+        {
+          "episode": 100000,
+          "validation_return": 12.377994791666666
+        },
+        {
+          "episode": 110000,
+          "validation_return": 11.648958333333335
+        },
+        {
+          "episode": 120000,
+          "validation_return": 11.848828124999999
+        }
+      ],
+      "seconds": 20.274123000039253,
+      "seed": 2,
+      "episodes": 120000,
+      "mode": "no_budget",
+      "path": "no_budget_seed2.npz"
+    },
+    {
+      "curve": [
+        {
+          "episode": 10000,
+          "validation_return": 10.887369791666666
+        },
+        {
+          "episode": 20000,
+          "validation_return": 10.842317708333333
+        },
+        {
+          "episode": 30000,
+          "validation_return": 10.613020833333334
+        },
+        {
+          "episode": 40000,
+          "validation_return": 10.368229166666667
+        },
+        {
+          "episode": 50000,
+          "validation_return": 10.823307291666667
+        },
+        {
+          "episode": 60000,
+          "validation_return": 11.43359375
+        },
+        {
+          "episode": 70000,
+          "validation_return": 11.032161458333334
+        },
+        {
+          "episode": 80000,
+          "validation_return": 11.905859375
+        },
+        {
+          "episode": 90000,
+          "validation_return": 11.781770833333335
+        },
+        {
+          "episode": 100000,
+          "validation_return": 12.001822916666669
+        },
+        {
+          "episode": 110000,
+          "validation_return": 11.585677083333332
+        },
+        {
+          "episode": 120000,
+          "validation_return": 11.383072916666665
+        }
+      ],
+      "seconds": 21.800851800013334,
+      "seed": 3,
+      "episodes": 120000,
+      "mode": "no_budget",
+      "path": "no_budget_seed3.npz"
+    },
+    {
+      "curve": [
+        {
+          "episode": 10000,
+          "validation_return": 10.245052083333334
+        },
+        {
+          "episode": 20000,
+          "validation_return": 10.535026041666667
+        },
+        {
+          "episode": 30000,
+          "validation_return": 11.200911458333332
+        },
+        {
+          "episode": 40000,
+          "validation_return": 11.08046875
+        },
+        {
+          "episode": 50000,
+          "validation_return": 10.674869791666666
+        },
+        {
+          "episode": 60000,
+          "validation_return": 12.071614583333334
+        },
+        {
+          "episode": 70000,
+          "validation_return": 11.326953124999998
+        },
+        {
+          "episode": 80000,
+          "validation_return": 11.880729166666667
+        },
+        {
+          "episode": 90000,
+          "validation_return": 11.025911458333335
+        },
+        {
+          "episode": 100000,
+          "validation_return": 11.82421875
+        },
+        {
+          "episode": 110000,
+          "validation_return": 11.229036458333333
+        },
+        {
+          "episode": 120000,
+          "validation_return": 11.161197916666666
+        }
+      ],
+      "seconds": 27.746795000042766,
+      "seed": 4,
+      "episodes": 120000,
+      "mode": "no_budget",
+      "path": "no_budget_seed4.npz"
+    },
+    {
+      "curve": [
+        {
+          "episode": 10000,
+          "validation_return": 10.471614583333334
+        },
+        {
+          "episode": 20000,
+          "validation_return": 11.113932291666666
+        },
+        {
+          "episode": 30000,
+          "validation_return": 11.267317708333332
+        },
+        {
+          "episode": 40000,
+          "validation_return": 11.836588541666666
+        },
+        {
+          "episode": 50000,
+          "validation_return": 10.657161458333334
+        },
+        {
+          "episode": 60000,
+          "validation_return": 11.344791666666667
+        },
+        {
+          "episode": 70000,
+          "validation_return": 10.436328125
+        },
+        {
+          "episode": 80000,
+          "validation_return": 11.867317708333333
+        },
+        {
+          "episode": 90000,
+          "validation_return": 11.96875
+        },
+        {
+          "episode": 100000,
+          "validation_return": 12.317578125000002
+        },
+        {
+          "episode": 110000,
+          "validation_return": 12.13671875
+        },
+        {
+          "episode": 120000,
+          "validation_return": 12.102083333333333
+        }
+      ],
+      "seconds": 27.96091779996641,
+      "seed": 5,
+      "episodes": 120000,
+      "mode": "no_budget",
+      "path": "no_budget_seed5.npz"
+    },
+    {
+      "curve": [
+        {
+          "episode": 10000,
+          "validation_return": 10.454687499999999
+        },
+        {
+          "episode": 20000,
+          "validation_return": 11.033203125
+        },
+        {
+          "episode": 30000,
+          "validation_return": 11.185416666666669
+        },
+        {
+          "episode": 40000,
+          "validation_return": 10.7109375
+        },
+        {
+          "episode": 50000,
+          "validation_return": 10.91953125
+        },
+        {
+          "episode": 60000,
+          "validation_return": 10.937630208333333
+        },
+        {
+          "episode": 70000,
+          "validation_return": 10.817838541666665
+        },
+        {
+          "episode": 80000,
+          "validation_return": 11.098046875000001
+        },
+        {
+          "episode": 90000,
+          "validation_return": 12.047135416666668
+        },
+        {
+          "episode": 100000,
+          "validation_return": 11.849609375
+        },
+        {
+          "episode": 110000,
+          "validation_return": 12.061197916666666
+        },
+        {
+          "episode": 120000,
+          "validation_return": 12.257552083333332
+        }
+      ],
+      "seconds": 27.885441799997352,
+      "seed": 6,
+      "episodes": 120000,
+      "mode": "no_budget",
+      "path": "no_budget_seed6.npz"
+    },
+    {
+      "curve": [
+        {
+          "episode": 10000,
+          "validation_return": 10.599088541666669
+        },
+        {
+          "episode": 20000,
+          "validation_return": 10.922005208333333
+        },
+        {
+          "episode": 30000,
+          "validation_return": 10.893359375000001
+        },
+        {
+          "episode": 40000,
+          "validation_return": 10.428645833333333
+        },
+        {
+          "episode": 50000,
+          "validation_return": 10.088671875000001
+        },
+        {
+          "episode": 60000,
+          "validation_return": 11.005208333333334
+        },
+        {
+          "episode": 70000,
+          "validation_return": 11.140755208333333
+        },
+        {
+          "episode": 80000,
+          "validation_return": 11.610416666666666
+        },
+        {
+          "episode": 90000,
+          "validation_return": 11.873567708333335
+        },
+        {
+          "episode": 100000,
+          "validation_return": 12.300000000000002
+        },
+        {
+          "episode": 110000,
+          "validation_return": 12.42421875
+        },
+        {
+          "episode": 120000,
+          "validation_return": 12.193619791666668
+        }
+      ],
+      "seconds": 28.651104699994903,
+      "seed": 7,
+      "episodes": 120000,
+      "mode": "no_budget",
+      "path": "no_budget_seed7.npz"
+    },
+    {
+      "curve": [
+        {
+          "episode": 10000,
+          "validation_return": 15.56640625
+        },
+        {
+          "episode": 20000,
+          "validation_return": 15.327604166666667
+        },
+        {
+          "episode": 30000,
+          "validation_return": 15.96875
+        },
+        {
+          "episode": 40000,
+          "validation_return": 15.830338541666668
+        },
+        {
+          "episode": 50000,
+          "validation_return": 16.721744791666666
+        },
+        {
+          "episode": 60000,
+          "validation_return": 16.755468750000002
+        },
+        {
+          "episode": 70000,
+          "validation_return": 17.031901041666668
+        },
+        {
+          "episode": 80000,
+          "validation_return": 17.345963541666666
+        },
+        {
+          "episode": 90000,
+          "validation_return": 17.804947916666666
+        },
+        {
+          "episode": 100000,
+          "validation_return": 17.950260416666666
+        },
+        {
+          "episode": 110000,
+          "validation_return": 17.96979166666667
+        },
+        {
+          "episode": 120000,
+          "validation_return": 18.004036458333335
+        }
+      ],
+      "seconds": 20.52412529999856,
+      "seed": 0,
+      "episodes": 120000,
+      "mode": "no_fatigue",
+      "path": "no_fatigue_seed0.npz"
+    },
+    {
+      "curve": [
+        {
+          "episode": 10000,
+          "validation_return": 14.918359375
+        },
+        {
+          "episode": 20000,
+          "validation_return": 15.897656249999999
+        },
+        {
+          "episode": 30000,
+          "validation_return": 15.862890625
+        },
+        {
+          "episode": 40000,
+          "validation_return": 16.464973958333335
+        },
+        {
+          "episode": 50000,
+          "validation_return": 16.117578124999998
+        },
+        {
+          "episode": 60000,
+          "validation_return": 17.004036458333335
+        },
+        {
+          "episode": 70000,
+          "validation_return": 17.279557291666666
+        },
+        {
+          "episode": 80000,
+          "validation_return": 17.327734375000002
+        },
+        {
+          "episode": 90000,
+          "validation_return": 17.572265625
+        },
+        {
+          "episode": 100000,
+          "validation_return": 17.861979166666668
+        },
+        {
+          "episode": 110000,
+          "validation_return": 17.933723958333335
+        },
+        {
+          "episode": 120000,
+          "validation_return": 18.132161458333332
+        }
+      ],
+      "seconds": 20.1630914999987,
+      "seed": 1,
+      "episodes": 120000,
+      "mode": "no_fatigue",
+      "path": "no_fatigue_seed1.npz"
+    },
+    {
+      "curve": [
+        {
+          "episode": 10000,
+          "validation_return": 15.172395833333333
+        },
+        {
+          "episode": 20000,
+          "validation_return": 15.764192708333335
+        },
+        {
+          "episode": 30000,
+          "validation_return": 16.280859375000002
+        },
+        {
+          "episode": 40000,
+          "validation_return": 16.549869791666666
+        },
+        {
+          "episode": 50000,
+          "validation_return": 16.835416666666667
+        },
+        {
+          "episode": 60000,
+          "validation_return": 16.9875
+        },
+        {
+          "episode": 70000,
+          "validation_return": 17.601432291666665
+        },
+        {
+          "episode": 80000,
+          "validation_return": 17.719401041666668
+        },
+        {
+          "episode": 90000,
+          "validation_return": 17.922135416666666
+        },
+        {
+          "episode": 100000,
+          "validation_return": 17.840104166666666
+        },
+        {
+          "episode": 110000,
+          "validation_return": 17.959765625
+        },
+        {
+          "episode": 120000,
+          "validation_return": 17.9671875
+        }
+      ],
+      "seconds": 20.088300200004596,
+      "seed": 2,
+      "episodes": 120000,
+      "mode": "no_fatigue",
+      "path": "no_fatigue_seed2.npz"
+    },
+    {
+      "curve": [
+        {
+          "episode": 10000,
+          "validation_return": 15.479296875000001
+        },
+        {
+          "episode": 20000,
+          "validation_return": 15.600520833333334
+        },
+        {
+          "episode": 30000,
+          "validation_return": 16.145052083333336
+        },
+        {
+          "episode": 40000,
+          "validation_return": 16.033984375
+        },
+        {
+          "episode": 50000,
+          "validation_return": 16.802734375
+        },
+        {
+          "episode": 60000,
+          "validation_return": 17.1328125
+        },
+        {
+          "episode": 70000,
+          "validation_return": 17.093098958333332
+        },
+        {
+          "episode": 80000,
+          "validation_return": 17.507552083333334
+        },
+        {
+          "episode": 90000,
+          "validation_return": 17.559244791666668
+        },
+        {
+          "episode": 100000,
+          "validation_return": 17.938411458333334
+        },
+        {
+          "episode": 110000,
+          "validation_return": 17.92265625
+        },
+        {
+          "episode": 120000,
+          "validation_return": 17.880989583333335
+        }
+      ],
+      "seconds": 21.473969599988777,
+      "seed": 3,
+      "episodes": 120000,
+      "mode": "no_fatigue",
+      "path": "no_fatigue_seed3.npz"
+    },
+    {
+      "curve": [
+        {
+          "episode": 10000,
+          "validation_return": 15.091927083333333
+        },
+        {
+          "episode": 20000,
+          "validation_return": 15.340104166666668
+        },
+        {
+          "episode": 30000,
+          "validation_return": 15.582942708333334
+        },
+        {
+          "episode": 40000,
+          "validation_return": 16.606770833333332
+        },
+        {
+          "episode": 50000,
+          "validation_return": 16.891406250000003
+        },
+        {
+          "episode": 60000,
+          "validation_return": 16.909895833333334
+        },
+        {
+          "episode": 70000,
+          "validation_return": 17.113541666666666
+        },
+        {
+          "episode": 80000,
+          "validation_return": 17.396744791666666
+        },
+        {
+          "episode": 90000,
+          "validation_return": 17.746093750000004
+        },
+        {
+          "episode": 100000,
+          "validation_return": 17.995442708333336
+        },
+        {
+          "episode": 110000,
+          "validation_return": 17.98359375
+        },
+        {
+          "episode": 120000,
+          "validation_return": 17.931901041666666
+        }
+      ],
+      "seconds": 20.304690399963874,
+      "seed": 4,
+      "episodes": 120000,
+      "mode": "no_fatigue",
+      "path": "no_fatigue_seed4.npz"
+    },
+    {
+      "curve": [
+        {
+          "episode": 10000,
+          "validation_return": 14.561718750000002
+        },
+        {
+          "episode": 20000,
+          "validation_return": 15.861588541666668
+        },
+        {
+          "episode": 30000,
+          "validation_return": 15.889973958333334
+        },
+        {
+          "episode": 40000,
+          "validation_return": 15.841666666666669
+        },
+        {
+          "episode": 50000,
+          "validation_return": 16.642838541666666
+        },
+        {
+          "episode": 60000,
+          "validation_return": 16.981380208333334
+        },
+        {
+          "episode": 70000,
+          "validation_return": 17.361067708333334
+        },
+        {
+          "episode": 80000,
+          "validation_return": 17.496614583333336
+        },
+        {
+          "episode": 90000,
+          "validation_return": 17.946484375
+        },
+        {
+          "episode": 100000,
+          "validation_return": 17.9875
+        },
+        {
+          "episode": 110000,
+          "validation_return": 18.111979166666668
+        },
+        {
+          "episode": 120000,
+          "validation_return": 18.039322916666666
+        }
+      ],
+      "seconds": 20.486721199995372,
+      "seed": 5,
+      "episodes": 120000,
+      "mode": "no_fatigue",
+      "path": "no_fatigue_seed5.npz"
+    },
+    {
+      "curve": [
+        {
+          "episode": 10000,
+          "validation_return": 14.673307291666667
+        },
+        {
+          "episode": 20000,
+          "validation_return": 15.941927083333333
+        },
+        {
+          "episode": 30000,
+          "validation_return": 16.241666666666667
+        },
+        {
+          "episode": 40000,
+          "validation_return": 16.0921875
+        },
+        {
+          "episode": 50000,
+          "validation_return": 16.918229166666666
+        },
+        {
+          "episode": 60000,
+          "validation_return": 17.096354166666668
+        },
+        {
+          "episode": 70000,
+          "validation_return": 17.457161458333335
+        },
+        {
+          "episode": 80000,
+          "validation_return": 17.602473958333334
+        },
+        {
+          "episode": 90000,
+          "validation_return": 17.71236979166667
+        },
+        {
+          "episode": 100000,
+          "validation_return": 17.861718749999998
+        },
+        {
+          "episode": 110000,
+          "validation_return": 18.1515625
+        },
+        {
+          "episode": 120000,
+          "validation_return": 18.219921875
+        }
+      ],
+      "seconds": 19.597376700025052,
+      "seed": 6,
+      "episodes": 120000,
+      "mode": "no_fatigue",
+      "path": "no_fatigue_seed6.npz"
+    },
+    {
+      "curve": [
+        {
+          "episode": 10000,
+          "validation_return": 14.915624999999999
+        },
+        {
+          "episode": 20000,
+          "validation_return": 15.461328125000001
+        },
+        {
+          "episode": 30000,
+          "validation_return": 15.6890625
+        },
+        {
+          "episode": 40000,
+          "validation_return": 16.523567708333335
+        },
+        {
+          "episode": 50000,
+          "validation_return": 16.644791666666666
+        },
+        {
+          "episode": 60000,
+          "validation_return": 16.792708333333334
+        },
+        {
+          "episode": 70000,
+          "validation_return": 17.265234375000002
+        },
+        {
+          "episode": 80000,
+          "validation_return": 17.552213541666667
+        },
+        {
+          "episode": 90000,
+          "validation_return": 17.801302083333336
+        },
+        {
+          "episode": 100000,
+          "validation_return": 17.850260416666668
+        },
+        {
+          "episode": 110000,
+          "validation_return": 18.021614583333335
+        },
+        {
+          "episode": 120000,
+          "validation_return": 18.200781250000002
+        }
+      ],
+      "seconds": 20.345455300004687,
+      "seed": 7,
+      "episodes": 120000,
+      "mode": "no_fatigue",
+      "path": "no_fatigue_seed7.npz"
+    },
+    {
+      "curve": [
+        {
+          "episode": 10000,
+          "validation_return": 15.449088541666669
+        },
+        {
+          "episode": 20000,
+          "validation_return": 15.626302083333334
+        },
+        {
+          "episode": 30000,
+          "validation_return": 15.981640625000002
+        },
+        {
+          "episode": 40000,
+          "validation_return": 15.744010416666669
+        },
+        {
+          "episode": 50000,
+          "validation_return": 16.708984375
+        },
+        {
+          "episode": 60000,
+          "validation_return": 16.728255208333334
+        },
+        {
+          "episode": 70000,
+          "validation_return": 17.13203125
+        },
+        {
+          "episode": 80000,
+          "validation_return": 17.740104166666665
+        },
+        {
+          "episode": 90000,
+          "validation_return": 17.959374999999998
+        },
+        {
+          "episode": 100000,
+          "validation_return": 18.051302083333336
+        },
+        {
+          "episode": 110000,
+          "validation_return": 18.070052083333334
+        },
+        {
+          "episode": 120000,
+          "validation_return": 18.16901041666667
+        }
+      ],
+      "seconds": 20.220025299990084,
+      "seed": 0,
+      "episodes": 120000,
+      "mode": "q",
+      "path": "q_seed0.npz"
+    },
+    {
+      "curve": [
+        {
+          "episode": 10000,
+          "validation_return": 15.702734375
+        },
+        {
+          "episode": 20000,
+          "validation_return": 15.720052083333334
+        },
+        {
+          "episode": 30000,
+          "validation_return": 16.247656250000002
+        },
+        {
+          "episode": 40000,
+          "validation_return": 16.724348958333334
+        },
+        {
+          "episode": 50000,
+          "validation_return": 16.735286458333334
+        },
+        {
+          "episode": 60000,
+          "validation_return": 16.845052083333332
+        },
+        {
+          "episode": 70000,
+          "validation_return": 17.262760416666666
+        },
+        {
+          "episode": 80000,
+          "validation_return": 17.476432291666665
+        },
+        {
+          "episode": 90000,
+          "validation_return": 17.830989583333334
+        },
+        {
+          "episode": 100000,
+          "validation_return": 18.260677083333334
+        },
+        {
+          "episode": 110000,
+          "validation_return": 18.141666666666666
+        },
+        {
+          "episode": 120000,
+          "validation_return": 18.33125
+        }
+      ],
+      "seconds": 17.827528199995868,
+      "seed": 1,
+      "episodes": 120000,
+      "mode": "q",
+      "path": "q_seed1.npz"
+    },
+    {
+      "curve": [
+        {
+          "episode": 10000,
+          "validation_return": 15.494010416666667
+        },
+        {
+          "episode": 20000,
+          "validation_return": 16.266666666666666
+        },
+        {
+          "episode": 30000,
+          "validation_return": 16.290364583333332
+        },
+        {
+          "episode": 40000,
+          "validation_return": 16.016015624999998
+        },
+        {
+          "episode": 50000,
+          "validation_return": 16.834505208333333
+        },
+        {
+          "episode": 60000,
+          "validation_return": 16.816145833333334
+        },
+        {
+          "episode": 70000,
+          "validation_return": 17.057291666666668
+        },
+        {
+          "episode": 80000,
+          "validation_return": 17.683333333333334
+        },
+        {
+          "episode": 90000,
+          "validation_return": 17.952473958333332
+        },
+        {
+          "episode": 100000,
+          "validation_return": 17.993098958333334
+        },
+        {
+          "episode": 110000,
+          "validation_return": 18.27734375
+        },
+        {
+          "episode": 120000,
+          "validation_return": 18.125130208333335
+        }
+      ],
+      "seconds": 19.224078999948688,
+      "seed": 2,
+      "episodes": 120000,
+      "mode": "q",
+      "path": "q_seed2.npz"
+    },
+    {
+      "curve": [
+        {
+          "episode": 10000,
+          "validation_return": 15.968359375
+        },
+        {
+          "episode": 20000,
+          "validation_return": 16.015494791666665
+        },
+        {
+          "episode": 30000,
+          "validation_return": 16.33020833333333
+        },
+        {
+          "episode": 40000,
+          "validation_return": 16.531901041666668
+        },
+        {
+          "episode": 50000,
+          "validation_return": 16.708723958333334
+        },
+        {
+          "episode": 60000,
+          "validation_return": 17.095182291666667
+        },
+        {
+          "episode": 70000,
+          "validation_return": 17.321875000000002
+        },
+        {
+          "episode": 80000,
+          "validation_return": 17.541536458333336
+        },
+        {
+          "episode": 90000,
+          "validation_return": 17.66015625
+        },
+        {
+          "episode": 100000,
+          "validation_return": 17.991015625
+        },
+        {
+          "episode": 110000,
+          "validation_return": 18.069791666666667
+        },
+        {
+          "episode": 120000,
+          "validation_return": 18.141406250000003
+        }
+      ],
+      "seconds": 20.978966600028798,
+      "seed": 3,
+      "episodes": 120000,
+      "mode": "q",
+      "path": "q_seed3.npz"
+    },
+    {
+      "curve": [
+        {
+          "episode": 10000,
+          "validation_return": 15.579947916666669
+        },
+        {
+          "episode": 20000,
+          "validation_return": 15.632942708333333
+        },
+        {
+          "episode": 30000,
+          "validation_return": 16.421614583333334
+        },
+        {
+          "episode": 40000,
+          "validation_return": 16.857031250000002
+        },
+        {
+          "episode": 50000,
+          "validation_return": 16.69518229166667
+        },
+        {
+          "episode": 60000,
+          "validation_return": 17.012239583333336
+        },
+        {
+          "episode": 70000,
+          "validation_return": 17.264322916666668
+        },
+        {
+          "episode": 80000,
+          "validation_return": 17.269921874999998
+        },
+        {
+          "episode": 90000,
+          "validation_return": 17.776041666666668
+        },
+        {
+          "episode": 100000,
+          "validation_return": 18.053645833333334
+        },
+        {
+          "episode": 110000,
+          "validation_return": 18.13125
+        },
+        {
+          "episode": 120000,
+          "validation_return": 18.09088541666667
+        }
+      ],
+      "seconds": 18.79751160001615,
+      "seed": 4,
+      "episodes": 120000,
+      "mode": "q",
+      "path": "q_seed4.npz"
+    },
+    {
+      "curve": [
+        {
+          "episode": 10000,
+          "validation_return": 14.801041666666668
+        },
+        {
+          "episode": 20000,
+          "validation_return": 15.701953124999998
+        },
+        {
+          "episode": 30000,
+          "validation_return": 15.905729166666665
+        },
+        {
+          "episode": 40000,
+          "validation_return": 15.637239583333335
+        },
+        {
+          "episode": 50000,
+          "validation_return": 16.915234375
+        },
+        {
+          "episode": 60000,
+          "validation_return": 17.039583333333336
+        },
+        {
+          "episode": 70000,
+          "validation_return": 17.221614583333334
+        },
+        {
+          "episode": 80000,
+          "validation_return": 17.461458333333336
+        },
+        {
+          "episode": 90000,
+          "validation_return": 17.819010416666668
+        },
+        {
+          "episode": 100000,
+          "validation_return": 18.021744791666666
+        },
+        {
+          "episode": 110000,
+          "validation_return": 18.038411458333332
+        },
+        {
+          "episode": 120000,
+          "validation_return": 18.18984375
+        }
+      ],
+      "seconds": 18.686803700053133,
+      "seed": 5,
+      "episodes": 120000,
+      "mode": "q",
+      "path": "q_seed5.npz"
+    },
+    {
+      "curve": [
+        {
+          "episode": 10000,
+          "validation_return": 15.216276041666667
+        },
+        {
+          "episode": 20000,
+          "validation_return": 15.779427083333337
+        },
+        {
+          "episode": 30000,
+          "validation_return": 16.099739583333335
+        },
+        {
+          "episode": 40000,
+          "validation_return": 16.145052083333333
+        },
+        {
+          "episode": 50000,
+          "validation_return": 16.482942708333333
+        },
+        {
+          "episode": 60000,
+          "validation_return": 16.373177083333335
+        },
+        {
+          "episode": 70000,
+          "validation_return": 17.015755208333335
+        },
+        {
+          "episode": 80000,
+          "validation_return": 17.384765625
+        },
+        {
+          "episode": 90000,
+          "validation_return": 17.834114583333335
+        },
+        {
+          "episode": 100000,
+          "validation_return": 17.86666666666667
+        },
+        {
+          "episode": 110000,
+          "validation_return": 18.176302083333333
+        },
+        {
+          "episode": 120000,
+          "validation_return": 18.094401041666668
+        }
+      ],
+      "seconds": 19.843174699984957,
+      "seed": 6,
+      "episodes": 120000,
+      "mode": "q",
+      "path": "q_seed6.npz"
+    },
+    {
+      "curve": [
+        {
+          "episode": 10000,
+          "validation_return": 15.707552083333333
+        },
+        {
+          "episode": 20000,
+          "validation_return": 16.140494791666665
+        },
+        {
+          "episode": 30000,
+          "validation_return": 16.482812499999998
+        },
+        {
+          "episode": 40000,
+          "validation_return": 16.151692708333332
+        },
+        {
+          "episode": 50000,
+          "validation_return": 16.616015625
+        },
+        {
+          "episode": 60000,
+          "validation_return": 16.871614583333336
+        },
+        {
+          "episode": 70000,
+          "validation_return": 17.329036458333334
+        },
+        {
+          "episode": 80000,
+          "validation_return": 17.561197916666668
+        },
+        {
+          "episode": 90000,
+          "validation_return": 17.788541666666667
+        },
+        {
+          "episode": 100000,
+          "validation_return": 18.124739583333334
+        },
+        {
+          "episode": 110000,
+          "validation_return": 17.980078125000002
+        },
+        {
+          "episode": 120000,
+          "validation_return": 18.24713541666667
+        }
+      ],
+      "seconds": 18.917350900010206,
+      "seed": 7,
+      "episodes": 120000,
+      "mode": "q",
+      "path": "q_seed7.npz"
+    },
+    {
+      "curve": [
+        {
+          "episode": 10000,
+          "validation_return": 14.404296875
+        },
+        {
+          "episode": 20000,
+          "validation_return": 15.105989583333335
+        },
+        {
+          "episode": 30000,
+          "validation_return": 15.371744791666666
+        },
+        {
+          "episode": 40000,
+          "validation_return": 15.616796875
+        },
+        {
+          "episode": 50000,
+          "validation_return": 15.873567708333335
+        },
+        {
+          "episode": 60000,
+          "validation_return": 16.323177083333334
+        },
+        {
+          "episode": 70000,
+          "validation_return": 16.93359375
+        },
+        {
+          "episode": 80000,
+          "validation_return": 17.339973958333335
+        },
+        {
+          "episode": 90000,
+          "validation_return": 17.525260416666665
+        },
+        {
+          "episode": 100000,
+          "validation_return": 17.608203125
+        },
+        {
+          "episode": 110000,
+          "validation_return": 17.855078125000002
+        },
+        {
+          "episode": 120000,
+          "validation_return": 17.873697916666668
+        }
+      ],
+      "seconds": 11.639987499976996,
+      "seed": 0,
+      "episodes": 120000,
+      "mode": "sarsa",
+      "path": "sarsa_seed0.npz"
+    },
+    {
+      "curve": [
+        {
+          "episode": 10000,
+          "validation_return": 14.657942708333332
+        },
+        {
+          "episode": 20000,
+          "validation_return": 14.837630208333332
+        },
+        {
+          "episode": 30000,
+          "validation_return": 15.127994791666667
+        },
+        {
+          "episode": 40000,
+          "validation_return": 15.707552083333335
+        },
+        {
+          "episode": 50000,
+          "validation_return": 15.786718749999999
+        },
+        {
+          "episode": 60000,
+          "validation_return": 16.448697916666667
+        },
+        {
+          "episode": 70000,
+          "validation_return": 17.040885416666665
+        },
+        {
+          "episode": 80000,
+          "validation_return": 17.180989583333332
+        },
+        {
+          "episode": 90000,
+          "validation_return": 17.466145833333332
+        },
+        {
+          "episode": 100000,
+          "validation_return": 17.67578125
+        },
+        {
+          "episode": 110000,
+          "validation_return": 17.84752604166667
+        },
+        {
+          "episode": 120000,
+          "validation_return": 18.05859375
+        }
+      ],
+      "seconds": 12.061341000022367,
+      "seed": 1,
+      "episodes": 120000,
+      "mode": "sarsa",
+      "path": "sarsa_seed1.npz"
+    },
+    {
+      "curve": [
+        {
+          "episode": 10000,
+          "validation_return": 14.307421875000001
+        },
+        {
+          "episode": 20000,
+          "validation_return": 14.94921875
+        },
+        {
+          "episode": 30000,
+          "validation_return": 15.352734374999999
+        },
+        {
+          "episode": 40000,
+          "validation_return": 15.616796874999999
+        },
+        {
+          "episode": 50000,
+          "validation_return": 16.314583333333335
+        },
+        {
+          "episode": 60000,
+          "validation_return": 16.361848958333336
+        },
+        {
+          "episode": 70000,
+          "validation_return": 16.551432291666668
+        },
+        {
+          "episode": 80000,
+          "validation_return": 17.227994791666664
+        },
+        {
+          "episode": 90000,
+          "validation_return": 17.351692708333335
+        },
+        {
+          "episode": 100000,
+          "validation_return": 17.597265625000002
+        },
+        {
+          "episode": 110000,
+          "validation_return": 17.845312500000002
+        },
+        {
+          "episode": 120000,
+          "validation_return": 17.944661458333336
+        }
+      ],
+      "seconds": 11.792108799971174,
+      "seed": 2,
+      "episodes": 120000,
+      "mode": "sarsa",
+      "path": "sarsa_seed2.npz"
+    },
+    {
+      "curve": [
+        {
+          "episode": 10000,
+          "validation_return": 13.878124999999997
+        },
+        {
+          "episode": 20000,
+          "validation_return": 14.711067708333333
+        },
+        {
+          "episode": 30000,
+          "validation_return": 15.042057291666666
+        },
+        {
+          "episode": 40000,
+          "validation_return": 15.672135416666668
+        },
+        {
+          "episode": 50000,
+          "validation_return": 16.19322916666667
+        },
+        {
+          "episode": 60000,
+          "validation_return": 16.373697916666668
+        },
+        {
+          "episode": 70000,
+          "validation_return": 16.7625
+        },
+        {
+          "episode": 80000,
+          "validation_return": 17.086848958333334
+        },
+        {
+          "episode": 90000,
+          "validation_return": 17.664322916666666
+        },
+        {
+          "episode": 100000,
+          "validation_return": 17.941276041666665
+        },
+        {
+          "episode": 110000,
+          "validation_return": 17.786588541666667
+        },
+        {
+          "episode": 120000,
+          "validation_return": 17.798177083333332
+        }
+      ],
+      "seconds": 12.303383600024972,
+      "seed": 3,
+      "episodes": 120000,
+      "mode": "sarsa",
+      "path": "sarsa_seed3.npz"
+    },
+    {
+      "curve": [
+        {
+          "episode": 10000,
+          "validation_return": 13.952604166666667
+        },
+        {
+          "episode": 20000,
+          "validation_return": 14.884114583333334
+        },
+        {
+          "episode": 30000,
+          "validation_return": 15.261979166666668
+        },
+        {
+          "episode": 40000,
+          "validation_return": 15.464453125
+        },
+        {
+          "episode": 50000,
+          "validation_return": 16.1546875
+        },
+        {
+          "episode": 60000,
+          "validation_return": 16.726692708333335
+        },
+        {
+          "episode": 70000,
+          "validation_return": 16.511328125000002
+        },
+        {
+          "episode": 80000,
+          "validation_return": 17.096484375
+        },
+        {
+          "episode": 90000,
+          "validation_return": 17.45494791666667
+        },
+        {
+          "episode": 100000,
+          "validation_return": 17.798307291666664
+        },
+        {
+          "episode": 110000,
+          "validation_return": 17.855989583333336
+        },
+        {
+          "episode": 120000,
+          "validation_return": 17.97578125
+        }
+      ],
+      "seconds": 11.848616799979936,
+      "seed": 4,
+      "episodes": 120000,
+      "mode": "sarsa",
+      "path": "sarsa_seed4.npz"
+    },
+    {
+      "curve": [
+        {
+          "episode": 10000,
+          "validation_return": 13.990104166666667
+        },
+        {
+          "episode": 20000,
+          "validation_return": 14.912369791666668
+        },
+        {
+          "episode": 30000,
+          "validation_return": 14.985546874999999
+        },
+        {
+          "episode": 40000,
+          "validation_return": 15.306640625
+        },
+        {
+          "episode": 50000,
+          "validation_return": 15.789583333333333
+        },
+        {
+          "episode": 60000,
+          "validation_return": 16.348177083333336
+        },
+        {
+          "episode": 70000,
+          "validation_return": 16.849869791666666
+        },
+        {
+          "episode": 80000,
+          "validation_return": 17.333593750000002
+        },
+        {
+          "episode": 90000,
+          "validation_return": 17.371484374999998
+        },
+        {
+          "episode": 100000,
+          "validation_return": 17.679166666666667
+        },
+        {
+          "episode": 110000,
+          "validation_return": 17.656380208333335
+        },
+        {
+          "episode": 120000,
+          "validation_return": 17.688932291666667
+        }
+      ],
+      "seconds": 11.125754499982577,
+      "seed": 5,
+      "episodes": 120000,
+      "mode": "sarsa",
+      "path": "sarsa_seed5.npz"
+    },
+    {
+      "curve": [
+        {
+          "episode": 10000,
+          "validation_return": 13.612500000000002
+        },
+        {
+          "episode": 20000,
+          "validation_return": 14.590104166666668
+        },
+        {
+          "episode": 30000,
+          "validation_return": 14.952473958333334
+        },
+        {
+          "episode": 40000,
+          "validation_return": 15.431119791666667
+        },
+        {
+          "episode": 50000,
+          "validation_return": 16.291536458333336
+        },
+        {
+          "episode": 60000,
+          "validation_return": 16.143359375
+        },
+        {
+          "episode": 70000,
+          "validation_return": 16.616015625
+        },
+        {
+          "episode": 80000,
+          "validation_return": 17.300260416666667
+        },
+        {
+          "episode": 90000,
+          "validation_return": 17.787630208333336
+        },
+        {
+          "episode": 100000,
+          "validation_return": 17.686197916666668
+        },
+        {
+          "episode": 110000,
+          "validation_return": 17.927343750000002
+        },
+        {
+          "episode": 120000,
+          "validation_return": 17.823567708333332
+        }
+      ],
+      "seconds": 12.14196149999043,
+      "seed": 6,
+      "episodes": 120000,
+      "mode": "sarsa",
+      "path": "sarsa_seed6.npz"
+    },
+    {
+      "curve": [
+        {
+          "episode": 10000,
+          "validation_return": 13.954947916666669
+        },
+        {
+          "episode": 20000,
+          "validation_return": 14.186197916666666
+        },
+        {
+          "episode": 30000,
+          "validation_return": 15.51328125
+        },
+        {
+          "episode": 40000,
+          "validation_return": 15.882291666666667
+        },
+        {
+          "episode": 50000,
+          "validation_return": 16.114713541666667
+        },
+        {
+          "episode": 60000,
+          "validation_return": 16.318880208333336
+        },
+        {
+          "episode": 70000,
+          "validation_return": 16.99609375
+        },
+        {
+          "episode": 80000,
+          "validation_return": 17.317968750000002
+        },
+        {
+          "episode": 90000,
+          "validation_return": 17.344010416666666
+        },
+        {
+          "episode": 100000,
+          "validation_return": 17.6125
+        },
+        {
+          "episode": 110000,
+          "validation_return": 17.873697916666668
+        },
+        {
+          "episode": 120000,
+          "validation_return": 17.875260416666666
+        }
+      ],
+      "seconds": 12.400573100021575,
+      "seed": 7,
+      "episodes": 120000,
+      "mode": "sarsa",
+      "path": "sarsa_seed7.npz"
+    }
+  ],
+  "summary": [
+    {
+      "policy": "Always coarse",
+      "return": 8.73456,
+      "return_ci95": 0.06411534706225933,
+      "utility": 14.767154999999999,
+      "utility_ci95": 0.06355239495958653,
+      "exposure": 9.998075,
+      "exposure_ci95": 0.0004890912468729578,
+      "prompts": 0.0,
+      "prompts_ci95": 0.0,
+      "budget_left": 0.001925,
+      "budget_left_ci95": 0.0004890912468730729
+    },
+    {
+      "policy": "Always consent",
+      "return": -1.7456075,
+      "return_ci95": 0.06359165160824663,
+      "utility": 12.9114,
+      "utility_ci95": 0.061922172890942026,
+      "exposure": 7.319425,
+      "exposure_ci95": 0.01629925466463937,
+      "prompts": 10.698425,
+      "prompts_ci95": 0.02405225057069777,
+      "budget_left": 2.680575,
+      "budget_left_ci95": 0.01629925466463937
+    },
+    {
+      "policy": "Always deny",
+      "return": -5.225250000000001,
+      "return_ci95": 0.017434241766748366,
+      "utility": 0.0,
+      "utility_ci95": 0.0,
+      "exposure": 0.0,
+      "exposure_ci95": 0.0,
+      "prompts": 0.0,
+      "prompts_ci95": 0.0,
+      "budget_left": 10.0,
+      "budget_left_ci95": 0.0
+    },
+    {
+      "policy": "Exact DP ceiling",
+      "return": 19.01683375,
+      "return_ci95": 0.09975689536247762,
+      "utility": 24.522045,
+      "utility_ci95": 0.10288811738951807,
+      "exposure": 9.2926,
+      "exposure_ci95": 0.013634032335090172,
+      "prompts": 1.3532,
+      "prompts_ci95": 0.008666546107220069,
+      "budget_left": 0.7074,
+      "budget_left_ci95": 0.013634032335090219
+    },
+    {
+      "policy": "Full or consent",
+      "return": 8.5658375,
+      "return_ci95": 0.08823022658976767,
+      "utility": 16.790675,
+      "utility_ci95": 0.09404066836289833,
+      "exposure": 9.9362,
+      "exposure_ci95": 0.0028196400162834993,
+      "prompts": 2.602725,
+      "prompts_ci95": 0.02103044869514667,
+      "budget_left": 0.0638,
+      "budget_left_ci95": 0.00281964001628374
+    },
+    {
+      "policy": "Greedy immediate",
+      "return": 13.47914625,
+      "return_ci95": 0.1059288200248401,
+      "utility": 20.17027,
+      "utility_ci95": 0.10144495448955516,
+      "exposure": 9.975325000000002,
+      "exposure_ci95": 0.0018142527479604908,
+      "prompts": 1.4569,
+      "prompts_ci95": 0.014160970902196543,
+      "budget_left": 0.024675,
+      "budget_left_ci95": 0.0018142527479604771
+    },
+    {
+      "policy": "Myopic Q (gamma=0)",
+      "return": 12.9002075,
+      "return_ci95": 0.11526712445411956,
+      "utility": 19.27436,
+      "utility_ci95": 0.11780391559058118,
+      "exposure": 9.979175,
+      "exposure_ci95": 0.0024746882591370313,
+      "prompts": 0.46537500000000004,
+      "prompts_ci95": 0.06365236697300129,
+      "budget_left": 0.020825,
+      "budget_left_ci95": 0.0024746882591370404
+    },
+    {
+      "policy": "Q without budget",
+      "return": 12.08567625,
+      "return_ci95": 0.39499041059385925,
+      "utility": 19.2618,
+      "utility_ci95": 0.3655816003345337,
+      "exposure": 9.961649999999999,
+      "exposure_ci95": 0.005770759233751549,
+      "prompts": 2.211975,
+      "prompts_ci95": 0.12327259478118832,
+      "budget_left": 0.038349999999999995,
+      "budget_left_ci95": 0.0057707592337515315
+    },
+    {
+      "policy": "Q without fatigue",
+      "return": 18.1783425,
+      "return_ci95": 0.09167113759374727,
+      "utility": 23.707325000000004,
+      "utility_ci95": 0.09858266965734465,
+      "exposure": 9.49595,
+      "exposure_ci95": 0.042758477749510186,
+      "prompts": 1.109975,
+      "prompts_ci95": 0.040112622853142904,
+      "budget_left": 0.50405,
+      "budget_left_ci95": 0.042758477749510186
+    },
+    {
+      "policy": "Q-learning",
+      "return": 18.23211,
+      "return_ci95": 0.11826920156529995,
+      "utility": 23.760785000000002,
+      "utility_ci95": 0.10983003681237884,
+      "exposure": 9.483025,
+      "exposure_ci95": 0.016741803691270773,
+      "prompts": 1.1813,
+      "prompts_ci95": 0.06008742506043054,
+      "budget_left": 0.516975,
+      "budget_left_ci95": 0.016741803691270946
+    },
+    {
+      "policy": "Random feasible",
+      "return": 7.86922,
+      "return_ci95": 0.09384541716130877,
+      "utility": 15.36095,
+      "utility_ci95": 0.09236815085021581,
+      "exposure": 9.447625,
+      "exposure_ci95": 0.012445075171152016,
+      "prompts": 2.506525,
+      "prompts_ci95": 0.01308068207993524,
+      "budget_left": 0.5523750000000001,
+      "budget_left_ci95": 0.012445075171152058
+    },
+    {
+      "policy": "SARSA",
+      "return": 17.91190625,
+      "return_ci95": 0.14261309451499876,
+      "utility": 23.448165,
+      "utility_ci95": 0.15775301619261736,
+      "exposure": 9.609875,
+      "exposure_ci95": 0.03094704229863464,
+      "prompts": 1.0113249999999998,
+      "prompts_ci95": 0.12451189767274931,
+      "budget_left": 0.39012500000000006,
+      "budget_left_ci95": 0.030947042298634653
+    }
+  ],
+  "paired_summary": [
+    {
+      "opponent": "Greedy immediate",
+      "gain": 4.752963749999999,
+      "ci95": 0.07649365425417483
+    },
+    {
+      "opponent": "Myopic Q (gamma=0)",
+      "gain": 5.3319025,
+      "ci95": 0.11470405054046826
+    },
+    {
+      "opponent": "Q without budget",
+      "gain": 6.14643375,
+      "ci95": 0.3229228207417966
+    },
+    {
+      "opponent": "Q without fatigue",
+      "gain": 0.053767500000000024,
+      "ci95": 0.05547852589350834
+    },
+    {
+      "opponent": "SARSA",
+      "gain": 0.32020375,
+      "ci95": 0.09822967681752152
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "status": "passed",
+  "initialChoice": "Coarse",
+  "consentPresetChoice": "Ask consent",
+  "sessionReturn": "14.70",
+  "used": "9 / 10",
+  "statesChecked": 7128,
+  "maxImmediateRewardDifference": 8.881784197001252e-16,
+  "consoleErrors": [],
+  "mobileOverflow": false
+}

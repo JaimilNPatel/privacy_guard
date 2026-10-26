@@ -1,0 +1,385 @@
+policy,seed,action,fraction
+Greedy immediate,0,0,0.37353333333333333
+Greedy immediate,0,1,0.21091666666666667
+Greedy immediate,0,2,0.12365
+Greedy immediate,0,3,0.2919
+Always coarse,0,0,0.29351666666666665
+Always coarse,0,1,0.7064833333333334
+Always coarse,0,2,0.0
+Always coarse,0,3,0.0
+Full or consent,0,0,0.4564666666666667
+Full or consent,0,1,0.0
+Full or consent,0,2,0.21965
+Full or consent,0,3,0.32388333333333336
+Always consent,0,0,0.11225
+Always consent,0,1,0.0
+Always consent,0,2,0.88775
+Always consent,0,3,0.0
+Always deny,0,0,1.0
+Always deny,0,1,0.0
+Always deny,0,2,0.0
+Always deny,0,3,0.0
+Random feasible,0,0,0.4104333333333333
+Random feasible,0,1,0.28108333333333335
+Random feasible,0,2,0.21035
+Random feasible,0,3,0.09813333333333334
+Exact DP ceiling,0,0,0.36246666666666666
+Exact DP ceiling,0,1,0.21966666666666668
+Exact DP ceiling,0,2,0.11423333333333334
+Exact DP ceiling,0,3,0.3036333333333333
+Q-learning,0,0,0.34895
+Q-learning,0,1,0.27425
+Q-learning,0,2,0.1031
+Q-learning,0,3,0.2737
+SARSA,0,0,0.32843333333333335
+SARSA,0,1,0.3051
+SARSA,0,2,0.0928
+SARSA,0,3,0.27366666666666667
+Myopic Q (gamma=0),0,0,0.3711
+Myopic Q (gamma=0),0,1,0.2999
+Myopic Q (gamma=0),0,2,0.03621666666666667
+Myopic Q (gamma=0),0,3,0.29278333333333334
+Q without budget,0,0,0.36488333333333334
+Q without budget,0,1,0.20946666666666666
+Q without budget,0,2,0.17518333333333333
+Q without budget,0,3,0.25046666666666667
+Q without fatigue,0,0,0.33766666666666667
+Q without fatigue,0,1,0.2679666666666667
+Q without fatigue,0,2,0.09551666666666667
+Q without fatigue,0,3,0.29885
+Greedy immediate,1,0,0.3731833333333333
+Greedy immediate,1,1,0.21248333333333333
+Greedy immediate,1,2,0.12121666666666667
+Greedy immediate,1,3,0.2931166666666667
+Always coarse,1,0,0.2935333333333333
+Always coarse,1,1,0.7064666666666667
+Always coarse,1,2,0.0
+Always coarse,1,3,0.0
+Full or consent,1,0,0.45955
+Full or consent,1,1,0.0
+Full or consent,1,2,0.21513333333333334
+Full or consent,1,3,0.32531666666666664
+Always consent,1,0,0.10796666666666667
+Always consent,1,1,0.0
+Always consent,1,2,0.8920333333333333
+Always consent,1,3,0.0
+Always deny,1,0,1.0
+Always deny,1,1,0.0
+Always deny,1,2,0.0
+Always deny,1,3,0.0
+Random feasible,1,0,0.41073333333333334
+Random feasible,1,1,0.27996666666666664
+Random feasible,1,2,0.20706666666666668
+Random feasible,1,3,0.10223333333333333
+Exact DP ceiling,1,0,0.3667
+Exact DP ceiling,1,1,0.21708333333333332
+Exact DP ceiling,1,2,0.11298333333333334
+Exact DP ceiling,1,3,0.30323333333333335
+Q-learning,1,0,0.34163333333333334
+Q-learning,1,1,0.27881666666666666
+Q-learning,1,2,0.0915
+Q-learning,1,3,0.28805
+SARSA,1,0,0.3368833333333333
+SARSA,1,1,0.2932
+SARSA,1,2,0.09743333333333333
+SARSA,1,3,0.27248333333333336
+Myopic Q (gamma=0),1,0,0.37198333333333333
+Myopic Q (gamma=0),1,1,0.29751666666666665
+Myopic Q (gamma=0),1,2,0.036833333333333336
+Myopic Q (gamma=0),1,3,0.2936666666666667
+Q without budget,1,0,0.3687666666666667
+Q without budget,1,1,0.2018
+Q without budget,1,2,0.20513333333333333
+Q without budget,1,3,0.2243
+Q without fatigue,1,0,0.35196666666666665
+Q without fatigue,1,1,0.26495
+Q without fatigue,1,2,0.09426666666666667
+Q without fatigue,1,3,0.28881666666666667
+Greedy immediate,2,0,0.3712
+Greedy immediate,2,1,0.21388333333333334
+Greedy immediate,2,2,0.12196666666666667
+Greedy immediate,2,3,0.29295
+Always coarse,2,0,0.29365
+Always coarse,2,1,0.70635
+Always coarse,2,2,0.0
+Always coarse,2,3,0.0
+Full or consent,2,0,0.45598333333333335
+Full or consent,2,1,0.0
+Full or consent,2,2,0.21776666666666666
+Full or consent,2,3,0.32625
+Always consent,2,0,0.10635
+Always consent,2,1,0.0
+Always consent,2,2,0.89365
+Always consent,2,3,0.0
+Always deny,2,0,1.0
+Always deny,2,1,0.0
+Always deny,2,2,0.0
+Always deny,2,3,0.0
+Random feasible,2,0,0.4122
+Random feasible,2,1,0.2800666666666667
+Random feasible,2,2,0.20826666666666666
+Random feasible,2,3,0.09946666666666666
+Exact DP ceiling,2,0,0.36393333333333333
+Exact DP ceiling,2,1,0.22038333333333332
+Exact DP ceiling,2,2,0.11245
+Exact DP ceiling,2,3,0.30323333333333335
+Q-learning,2,0,0.34653333333333336
+Q-learning,2,1,0.26811666666666667
+Q-learning,2,2,0.10105
+Q-learning,2,3,0.2843
+SARSA,2,0,0.33311666666666667
+SARSA,2,1,0.2901
+SARSA,2,2,0.10053333333333334
+SARSA,2,3,0.27625
+Myopic Q (gamma=0),2,0,0.36833333333333335
+Myopic Q (gamma=0),2,1,0.29268333333333335
+Myopic Q (gamma=0),2,2,0.04476666666666667
+Myopic Q (gamma=0),2,3,0.2942166666666667
+Q without budget,2,0,0.3756833333333333
+Q without budget,2,1,0.18781666666666666
+Q without budget,2,2,0.18223333333333333
+Q without budget,2,3,0.25426666666666664
+Q without fatigue,2,0,0.3453
+Q without fatigue,2,1,0.2846166666666667
+Q without fatigue,2,2,0.09293333333333334
+Q without fatigue,2,3,0.27715
+Greedy immediate,3,0,0.37405
+Greedy immediate,3,1,0.21468333333333334
+Greedy immediate,3,2,0.11891666666666667
+Greedy immediate,3,3,0.29235
+Always coarse,3,0,0.2938
+Always coarse,3,1,0.7062
+Always coarse,3,2,0.0
+Always coarse,3,3,0.0
+Full or consent,3,0,0.45736666666666664
+Full or consent,3,1,0.0
+Full or consent,3,2,0.21625
+Full or consent,3,3,0.32638333333333336
+Always consent,3,0,0.10953333333333333
+Always consent,3,1,0.0
+Always consent,3,2,0.8904666666666666
+Always consent,3,3,0.0
+Always deny,3,0,1.0
+Always deny,3,1,0.0
+Always deny,3,2,0.0
+Always deny,3,3,0.0
+Random feasible,3,0,0.40578333333333333
+Random feasible,3,1,0.2835
+Random feasible,3,2,0.20976666666666666
+Random feasible,3,3,0.10095
+Exact DP ceiling,3,0,0.36456666666666665
+Exact DP ceiling,3,1,0.22091666666666668
+Exact DP ceiling,3,2,0.11136666666666667
+Exact DP ceiling,3,3,0.30315
+Q-learning,3,0,0.3469333333333333
+Q-learning,3,1,0.27971666666666667
+Q-learning,3,2,0.09045
+Q-learning,3,3,0.2829
+SARSA,3,0,0.3269166666666667
+SARSA,3,1,0.3176
+SARSA,3,2,0.0783
+SARSA,3,3,0.27718333333333334
+Myopic Q (gamma=0),3,0,0.37366666666666665
+Myopic Q (gamma=0),3,1,0.3046
+Myopic Q (gamma=0),3,2,0.028566666666666667
+Myopic Q (gamma=0),3,3,0.2931666666666667
+Q without budget,3,0,0.39203333333333334
+Q without budget,3,1,0.1757
+Q without budget,3,2,0.1801
+Q without budget,3,3,0.25216666666666665
+Q without fatigue,3,0,0.34576666666666667
+Q without fatigue,3,1,0.28378333333333333
+Q without fatigue,3,2,0.09368333333333333
+Q without fatigue,3,3,0.27676666666666666
+Greedy immediate,4,0,0.3728666666666667
+Greedy immediate,4,1,0.21325
+Greedy immediate,4,2,0.12115
+Greedy immediate,4,3,0.29273333333333335
+Always coarse,4,0,0.29323333333333335
+Always coarse,4,1,0.7067666666666667
+Always coarse,4,2,0.0
+Always coarse,4,3,0.0
+Full or consent,4,0,0.45816666666666667
+Full or consent,4,1,0.0
+Full or consent,4,2,0.21475
+Full or consent,4,3,0.32708333333333334
+Always consent,4,0,0.11056666666666666
+Always consent,4,1,0.0
+Always consent,4,2,0.8894333333333333
+Always consent,4,3,0.0
+Always deny,4,0,1.0
+Always deny,4,1,0.0
+Always deny,4,2,0.0
+Always deny,4,3,0.0
+Random feasible,4,0,0.41135
+Random feasible,4,1,0.28115
+Random feasible,4,2,0.20833333333333334
+Random feasible,4,3,0.09916666666666667
+Exact DP ceiling,4,0,0.36518333333333336
+Exact DP ceiling,4,1,0.21663333333333334
+Exact DP ceiling,4,2,0.11346666666666666
+Exact DP ceiling,4,3,0.3047166666666667
+Q-learning,4,0,0.3469
+Q-learning,4,1,0.28028333333333333
+Q-learning,4,2,0.1002
+Q-learning,4,3,0.2726166666666667
+SARSA,4,0,0.33675
+SARSA,4,1,0.30138333333333334
+SARSA,4,2,0.08336666666666667
+SARSA,4,3,0.2785
+Myopic Q (gamma=0),4,0,0.3700333333333333
+Myopic Q (gamma=0),4,1,0.2888
+Myopic Q (gamma=0),4,2,0.047016666666666665
+Myopic Q (gamma=0),4,3,0.29415
+Q without budget,4,0,0.39518333333333333
+Q without budget,4,1,0.18121666666666666
+Q without budget,4,2,0.17075
+Q without budget,4,3,0.25285
+Q without fatigue,4,0,0.34308333333333335
+Q without fatigue,4,1,0.28791666666666665
+Q without fatigue,4,2,0.08446666666666666
+Q without fatigue,4,3,0.28453333333333336
+Greedy immediate,5,0,0.37745
+Greedy immediate,5,1,0.20936666666666667
+Greedy immediate,5,2,0.12043333333333334
+Greedy immediate,5,3,0.29275
+Always coarse,5,0,0.2946
+Always coarse,5,1,0.7054
+Always coarse,5,2,0.0
+Always coarse,5,3,0.0
+Full or consent,5,0,0.4612
+Full or consent,5,1,0.0
+Full or consent,5,2,0.21431666666666666
+Full or consent,5,3,0.32448333333333335
+Always consent,5,0,0.1095
+Always consent,5,1,0.0
+Always consent,5,2,0.8905
+Always consent,5,3,0.0
+Always deny,5,0,1.0
+Always deny,5,1,0.0
+Always deny,5,2,0.0
+Always deny,5,3,0.0
+Random feasible,5,0,0.40908333333333335
+Random feasible,5,1,0.2837166666666667
+Random feasible,5,2,0.20861666666666667
+Random feasible,5,3,0.09858333333333333
+Exact DP ceiling,5,0,0.36693333333333333
+Exact DP ceiling,5,1,0.21923333333333334
+Exact DP ceiling,5,2,0.11283333333333333
+Exact DP ceiling,5,3,0.301
+Q-learning,5,0,0.35833333333333334
+Q-learning,5,1,0.26621666666666666
+Q-learning,5,2,0.10351666666666667
+Q-learning,5,3,0.27193333333333336
+SARSA,5,0,0.32961666666666667
+SARSA,5,1,0.3332333333333333
+SARSA,5,2,0.0643
+SARSA,5,3,0.27285
+Myopic Q (gamma=0),5,0,0.3752666666666667
+Myopic Q (gamma=0),5,1,0.29663333333333336
+Myopic Q (gamma=0),5,2,0.035383333333333336
+Myopic Q (gamma=0),5,3,0.2927166666666667
+Q without budget,5,0,0.37716666666666665
+Q without budget,5,1,0.18866666666666668
+Q without budget,5,2,0.17916666666666667
+Q without budget,5,3,0.255
+Q without fatigue,5,0,0.3658
+Q without fatigue,5,1,0.2695666666666667
+Q without fatigue,5,2,0.08858333333333333
+Q without fatigue,5,3,0.27605
+Greedy immediate,6,0,0.36985
+Greedy immediate,6,1,0.2151
+Greedy immediate,6,2,0.12256666666666667
+Greedy immediate,6,3,0.2924833333333333
+Always coarse,6,0,0.29318333333333335
+Always coarse,6,1,0.7068166666666666
+Always coarse,6,2,0.0
+Always coarse,6,3,0.0
+Full or consent,6,0,0.45558333333333334
+Full or consent,6,1,0.0
+Full or consent,6,2,0.21951666666666667
+Full or consent,6,3,0.3249
+Always consent,6,0,0.10596666666666667
+Always consent,6,1,0.0
+Always consent,6,2,0.8940333333333333
+Always consent,6,3,0.0
+Always deny,6,0,1.0
+Always deny,6,1,0.0
+Always deny,6,2,0.0
+Always deny,6,3,0.0
+Random feasible,6,0,0.40928333333333333
+Random feasible,6,1,0.2808
+Random feasible,6,2,0.21081666666666668
+Random feasible,6,3,0.0991
+Exact DP ceiling,6,0,0.36301666666666665
+Exact DP ceiling,6,1,0.22068333333333334
+Exact DP ceiling,6,2,0.11208333333333333
+Exact DP ceiling,6,3,0.3042166666666667
+Q-learning,6,0,0.35315
+Q-learning,6,1,0.2784
+Q-learning,6,2,0.10523333333333333
+Q-learning,6,3,0.26321666666666665
+SARSA,6,0,0.33068333333333333
+SARSA,6,1,0.31705
+SARSA,6,2,0.07278333333333334
+SARSA,6,3,0.2794833333333333
+Myopic Q (gamma=0),6,0,0.3675
+Myopic Q (gamma=0),6,1,0.30341666666666667
+Myopic Q (gamma=0),6,2,0.036033333333333334
+Myopic Q (gamma=0),6,3,0.29305
+Q without budget,6,0,0.3828666666666667
+Q without budget,6,1,0.17063333333333333
+Q without budget,6,2,0.18063333333333334
+Q without budget,6,3,0.26586666666666664
+Q without fatigue,6,0,0.33886666666666665
+Q without fatigue,6,1,0.2718833333333333
+Q without fatigue,6,2,0.09646666666666667
+Q without fatigue,6,3,0.29278333333333334
+Greedy immediate,7,0,0.3722666666666667
+Greedy immediate,7,1,0.21515
+Greedy immediate,7,2,0.12136666666666666
+Greedy immediate,7,3,0.2912166666666667
+Always coarse,7,0,0.2938
+Always coarse,7,1,0.7062
+Always coarse,7,2,0.0
+Always coarse,7,3,0.0
+Full or consent,7,0,0.45713333333333334
+Full or consent,7,1,0.0
+Full or consent,7,2,0.21776666666666666
+Full or consent,7,3,0.3251
+Always consent,7,0,0.10558333333333333
+Always consent,7,1,0.0
+Always consent,7,2,0.8944166666666666
+Always consent,7,3,0.0
+Always deny,7,0,1.0
+Always deny,7,1,0.0
+Always deny,7,2,0.0
+Always deny,7,3,0.0
+Random feasible,7,0,0.4104
+Random feasible,7,1,0.28163333333333335
+Random feasible,7,2,0.2078
+Random feasible,7,3,0.10016666666666667
+Exact DP ceiling,7,0,0.3662
+Exact DP ceiling,7,1,0.21806666666666666
+Exact DP ceiling,7,2,0.11271666666666667
+Exact DP ceiling,7,3,0.30301666666666666
+Q-learning,7,0,0.3448333333333333
+Q-learning,7,1,0.26975
+Q-learning,7,2,0.09248333333333333
+Q-learning,7,3,0.2929333333333333
+SARSA,7,0,0.32821666666666666
+SARSA,7,1,0.30811666666666665
+SARSA,7,2,0.0847
+SARSA,7,3,0.27896666666666664
+Myopic Q (gamma=0),7,0,0.36983333333333335
+Myopic Q (gamma=0),7,1,0.29241666666666666
+Myopic Q (gamma=0),7,2,0.04543333333333333
+Myopic Q (gamma=0),7,3,0.29231666666666667
+Q without budget,7,0,0.36611666666666665
+Q without budget,7,1,0.18553333333333333
+Q without budget,7,2,0.20145
+Q without budget,7,3,0.2469
+Q without fatigue,7,0,0.34605
+Q without fatigue,7,1,0.26976666666666665
+Q without fatigue,7,2,0.09406666666666667
+Q without fatigue,7,3,0.2901166666666667
